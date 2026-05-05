@@ -1,8 +1,8 @@
 import flappbird from './assets/previews/Flappy_Bird_logo.png'
-import gridTacticsPreview from './assets/previews/grid-tactics.svg'
-import voidJumperPreview from './assets/previews/void-jumper.svg'
-import rogueKernelPreview from './assets/previews/rogue-kernel.svg'
-import bitArenaPreview from './assets/previews/bit-arena.svg'
+import pong from './assets/previews/pong.png'
+import pacman from './assets/previews/pacman.svg'
+import snake from './assets/previews/snake.png'
+import tetris from './assets/previews/tetris-logo.png'
 import tapeRunnerPreview from './assets/previews/tape-runner.svg'
 
 export const games = [
@@ -16,35 +16,35 @@ export const games = [
   },
   {
     id: '2',
-    title: 'Grid Tactics',
-    genre: 'Strategy',
-    description: 'Micro-turn tactical puzzle with fast sessions and combo streaks.',
+    title: 'Pong',
+    genre: 'Arcade',
+    description: 'Classic two-player paddle game with simple controls and fast-paced action.',
     reward: 36,
-    preview: gridTacticsPreview,
+    preview: pong,
   },
   {
     id: '3',
-    title: 'Void Jumper',
+    title: 'Pac-Man',
     genre: 'Platform',
     description: 'Precision jumps over void lanes in a minimalist motion field.',
     reward: 18,
-    preview: voidJumperPreview,
+    preview: pacman,
   },
   {
     id: '4',
-    title: 'Rogue Kernel',
+    title: 'Snake',
     genre: 'Roguelite',
     description: 'Room-by-room runs with adaptive enemy logic and tiny loot drops.',
     reward: 42,
-    preview: rogueKernelPreview,
+    preview: snake,
   },
   {
     id: '5',
-    title: 'Bit Arena',
+    title: 'Tetris',
     genre: 'PvE',
     description: 'Solo challenge waves tuned for low-latency reaction gameplay.',
     reward: 28,
-    preview: bitArenaPreview,
+    preview: tetris,
   },
   {
     id: '6',
