@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Grid Tactics preview">
+  <rect width="640" height="360" fill="#050505" />
+  <g stroke="#222" stroke-width="1">
+    <path d="M0 60 H640"/><path d="M0 120 H640"/><path d="M0 180 H640"/><path d="M0 240 H640"/><path d="M0 300 H640"/>
+    <path d="M80 0 V360"/><path d="M160 0 V360"/><path d="M240 0 V360"/><path d="M320 0 V360"/><path d="M400 0 V360"/><path d="M480 0 V360"/><path d="M560 0 V360"/>
+  </g>
+  <rect x="160" y="120" width="80" height="60" fill="#FFD700" />
+  <rect x="320" y="180" width="80" height="60" fill="#FFD700" opacity="0.8" />
+  <rect x="400" y="120" width="80" height="60" fill="#FFD700" opacity="0.55" />
+  <path d="M200 150 L360 210" stroke="#fff1a0" stroke-width="3" stroke-linecap="round" />
+</svg>

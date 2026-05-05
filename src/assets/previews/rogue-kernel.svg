@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Rogue Kernel preview">
+  <rect width="640" height="360" fill="#020202" />
+  <rect x="110" y="70" width="420" height="220" rx="18" fill="#0d0d0d" stroke="#2a2a2a" />
+  <rect x="145" y="105" width="130" height="70" fill="#1a1a1a" stroke="#333" />
+  <rect x="290" y="105" width="95" height="70" fill="#FFD700" opacity="0.85" />
+  <rect x="400" y="105" width="95" height="70" fill="#1a1a1a" stroke="#333" />
+  <rect x="145" y="190" width="240" height="65" fill="#1a1a1a" stroke="#333" />
+  <rect x="400" y="190" width="95" height="65" fill="#FFD700" opacity="0.5" />
+</svg>

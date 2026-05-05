@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #e8e8e8;
+  background: #000;
+  font-family: "Plus Jakarta Sans", Inter, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #000;
+  background-image:
+    radial-gradient(circle at 12% 8%, rgba(255, 215, 0, 0.1), transparent 36%),
+    radial-gradient(circle at 10% 0%, #060606 0%, #000 52%, #000 100%);
+  background-size:
+    100% 100%,
+    100% 100%,
+    100% 100%;
+  color: #e8e8e8;
+}
+
+body::before {
+  content: none;
+}
+
+body::after {
+  content: none;
+}
+
+@keyframes ambient-drift {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  100% {
+    transform: translate3d(-1.5%, 1.5%, 0) scale(1.03);
+  }
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+}
+
+.btn-primary {
+  text-shadow:
+    0.5px 0 #ffe875,
+    -0.5px 0 #f6cc00;
+}
+
+.btn-primary:hover {
+  text-shadow:
+    0.7px 0 #fff2a1,
+    -0.7px 0 #e4b600;
+}
+
+.pixel-hover:hover {
+  box-shadow:
+    0 0 0 1px #ffd700,
+    2px 2px 0 rgba(255, 215, 0, 0.55);
+}
+
+.shop-item:hover {
+  border-color: #ffd700;
+}

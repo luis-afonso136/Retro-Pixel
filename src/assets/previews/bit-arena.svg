@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Bit Arena preview">
+  <rect width="640" height="360" fill="#050505" />
+  <ellipse cx="320" cy="190" rx="220" ry="95" fill="#0f0f0f" stroke="#2a2a2a" />
+  <circle cx="245" cy="190" r="24" fill="#FFD700" />
+  <circle cx="398" cy="190" r="24" fill="#FFD700" opacity="0.75" />
+  <rect x="300" y="178" width="40" height="24" fill="#1f1f1f" stroke="#404040" />
+  <path d="M220 130 Q320 60 420 130" fill="none" stroke="#fff1a0" stroke-width="3" opacity="0.75" />
+</svg>

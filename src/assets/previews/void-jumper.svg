@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Void Jumper preview">
+  <rect width="640" height="360" fill="#040404" />
+  <rect x="30" y="250" width="130" height="18" fill="#1f1f1f" />
+  <rect x="220" y="220" width="120" height="18" fill="#1f1f1f" />
+  <rect x="410" y="190" width="140" height="18" fill="#1f1f1f" />
+  <rect x="155" y="245" width="24" height="24" fill="#FFD700" />
+  <circle cx="560" cy="85" r="26" fill="#FFD700" opacity="0.2" />
+  <circle cx="560" cy="85" r="10" fill="#FFD700" opacity="0.8" />
+</svg>

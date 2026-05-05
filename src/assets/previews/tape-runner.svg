@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Tape Runner preview">
+  <rect width="640" height="360" fill="#040404" />
+  <path d="M80 280 L220 120 L360 280 L500 120" fill="none" stroke="#2a2a2a" stroke-width="24" stroke-linejoin="round" />
+  <path d="M80 280 L220 120 L360 280 L500 120" fill="none" stroke="#FFD700" stroke-width="6" stroke-linejoin="round" />
+  <rect x="490" y="108" width="24" height="24" fill="#FFD700" />
+</svg>
