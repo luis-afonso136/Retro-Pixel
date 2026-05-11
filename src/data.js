@@ -13,6 +13,7 @@ export const games = [
     description: 'Short burst drift runs with sharp turns and high-score loops.',
     reward: 24,
     preview: flappbird,
+    type: 'custom',
   },
   {
     id: '2',
@@ -21,14 +22,18 @@ export const games = [
     description: 'Classic two-player paddle game with simple controls and fast-paced action.',
     reward: 36,
     preview: pong,
+    type: 'js',
+    component: 'PongGame',
   },
   {
     id: '3',
     title: 'Pac-Man',
     genre: 'Platform',
-    description: 'Precision jumps over void lanes in a minimalist motion field.',
+    description: 'Precision jumps over void lanes em labirintos clássicos do arcade.',
     reward: 18,
     preview: pacman,
+    type: 'js',
+    component: 'PacmanGame',
   },
   {
     id: '4',
@@ -37,14 +42,18 @@ export const games = [
     description: 'Room-by-room runs with adaptive enemy logic and tiny loot drops.',
     reward: 42,
     preview: snake,
+    type: 'js',
+    component: 'SnakeGame',
   },
   {
     id: '5',
     title: 'Tetris',
     genre: 'PvE',
-    description: 'Solo challenge waves tuned for low-latency reaction gameplay.',
+    description: 'Classicro puzzle game com gameplay infinito e ritmo crescente.',
     reward: 28,
     preview: tetris,
+    type: 'js',
+    component: 'TetrisGame',
   },
   {
     id: '6',
@@ -53,6 +62,7 @@ export const games = [
     description: 'Infinite sprint with escalating speed and rhythm gate moments.',
     reward: 20,
     preview: tapeRunnerPreview,
+    type: 'custom',
   },
 ]
 
